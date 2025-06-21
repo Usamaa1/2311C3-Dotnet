@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|c:\\users\\usama\\desktop\\dotnet mvc\\basicswithdbproject\\basicswithdbproject\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|solutionrelative:basicswithdbproject\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|c:\\users\\usama\\desktop\\dotnet mvc\\basicswithdbproject\\basicswithdbproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|solutionrelative:basicswithdbproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|c:\\users\\usama\\desktop\\dotnet mvc\\basicswithdbproject\\basicswithdbproject\\views\\home\\addemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|solutionrelative:basicswithdbproject\\views\\home\\addemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|c:\\users\\usama\\desktop\\dotnet mvc\\basicswithdbproject\\basicswithdbproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|solutionrelative:basicswithdbproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "BasicsWithDBProject\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Models\\Employee.cs*",
+              "RelativeToolTip": "BasicsWithDBProject\\Models\\Employee.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA1wBgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T07:22:58.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BasicsWithDBProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BasicsWithDBProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAB0AAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T06:56:21.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BasicsWithDBProject\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BasicsWithDBProject\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA5wB8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T06:54:13.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddEmployee.cshtml",
+              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Views\\Home\\AddEmployee.cshtml",
+              "RelativeDocumentMoniker": "BasicsWithDBProject\\Views\\Home\\AddEmployee.cshtml",
+              "ToolTip": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Views\\Home\\AddEmployee.cshtml",
+              "RelativeToolTip": "BasicsWithDBProject\\Views\\Home\\AddEmployee.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T06:55:11.935Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

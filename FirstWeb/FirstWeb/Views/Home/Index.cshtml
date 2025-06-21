@@ -1,0 +1,23 @@
+﻿@{
+    int a = 39;
+    List<int> numbers = new() { 1,2,3,4,5,6,7,8,9, 299};
+}
+
+<h1>Hello</h1>
+
+
+@if ( a == 34)
+{
+    <h2>This is equals to 34</h2>
+}
+else
+{
+    <h2>This is not equal to 34</h2>
+}
+
+
+@foreach (int num in numbers)
+{
+    <h5>This is @num</h5>    
+
+}
