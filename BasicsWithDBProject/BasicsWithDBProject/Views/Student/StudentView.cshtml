@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Student>;
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Student Name</th>
+            <th scope="col">Student Class</th>
+            <th scope="col">Student Age</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var std in Model)
+        {
+            <tr>
+                <th>@std.Id</th>
+                <td>@std.StudentName</td>
+                <td>@std.StudentClass</td>
+                <td>@std.StudentAge</td>
+                <td>
+                    <a asp-action="StudentDelete" asp-route-delId="@std.Id" class="btn btn-danger">Delete</a>
+                    <a href="#" class="btn btn-warning">Edit</a>
+                </td>
+
+            </tr>
+        }
+
+
+    </tbody>
+</table>

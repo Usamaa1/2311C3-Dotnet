@@ -1,0 +1,38 @@
+﻿ @model Student
+<form class="row g-3" asp-controller="Student" asp-action="AddStudent" method="post" id="studentForm">
+    <div id="successMessage">
+        @if (TempData["successMessage"] != null)
+        {
+            <div class="alert alert-success" role="alert">
+                @TempData["successMessage"]
+            </div>
+        }
+    </div>
+    <div class="col-md-12">
+        <label asp-for="StudentName" class="form-label">Student Name</label>
+        <input type="text" class="form-control" id="StudentName" asp-for="StudentName">
+        <span class="text-danger" asp-validation-for="StudentName"></span>
+
+    </div>
+    <div class="col-md-12">
+        <label asp-for="StudentClass" class="form-label">Student Class</label>
+        <input type="text" class="form-control" id="StudentClass" asp-for="StudentClass">
+        <span class="text-danger" asp-validation-for="StudentClass"></span>
+    </div>
+    <div class="col-md-12">
+        <label asp-for="StudentAge" class="form-label">Student Age</label>
+        <input type="text" class="form-control" id="StudentAge" asp-for="StudentAge">
+        <span class="text-danger" asp-validation-for="StudentAge"></span>
+    </div>
+    <div class="col-12">
+        <button type="submit" class="btn btn-primary">Add Student</button>
+    </div>
+</form>
+        <script>
+    let successMessage = document.getElementById('successMessage');
+    if(successMessage.innerText){
+        setTimeout(()=>{
+        successMessage.innerHTML = ''
+    },5000)
+    }
+        </script>

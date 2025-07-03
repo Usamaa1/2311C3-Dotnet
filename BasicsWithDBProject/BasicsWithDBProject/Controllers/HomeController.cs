@@ -1,16 +1,17 @@
-using System.Diagnostics;
+using BasicsWithDBProject.Data;
 using BasicsWithDBProject.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 
 namespace BasicsWithDBProject.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly Db2311C3Context _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(Db2311C3Context context)
         {
-            _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index()
@@ -18,19 +19,7 @@ namespace BasicsWithDBProject.Controllers
             return View();
         }
 
-        public IActionResult AddEmployee()
-        {
-            return View();
-        }
-        [HttpPost]
-        public IActionResult AddEmployee(Employee employee)
-        {
-            if (ModelState.IsValid)
-            {
-                return RedirectToAction("Privacy");
-            }
-            return View();
-        }
+      
 
         public IActionResult Privacy()
         {

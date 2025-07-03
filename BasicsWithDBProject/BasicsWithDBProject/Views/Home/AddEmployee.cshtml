@@ -1,39 +1,50 @@
-﻿@model Employee
+﻿ @model Student 
 
 <form class="row g-3" asp-controller="Home" asp-action="AddEmployee" method="post">
     @* <div class="col-sm-12"> *@
     @*     <div asp-validation-summary="All" class="text-danger"></div> *@
     @* </div> *@
-    <div class="col-md-12">
-        <label asp-for="Id" class="form-label">Employee Id</label>
-        <input type="text" class="form-control" id="inputEmail4" asp-for="Id">
-        <span class="text-danger" asp-validation-for="Id"></span>
-    </div>
-    <div class="col-md-12">
-        <label asp-for="Name" class="form-label">Employee Name</label>
-        <input type="text" class="form-control" id="inputEmail4" asp-for="Name">
-        <span class="text-danger" asp-validation-for="Name"></span>
+    @* <div class="col-md-12"> *@
+    @*     <label asp-for="Id" class="form-label">Employee Id</label> *@
+    @*     <input type="text" class="form-control" id="inputEmail4" asp-for="Id"> *@
+    @*     <span class="text-danger" asp-validation-for="Id"></span> *@
+    @* </div> *@
 
-    </div>
-    <div class="col-md-12">
-        <label asp-for="Email" class="form-label">Email</label>
-        <input type="email" class="form-control" id="inputEmail4" asp-for="Email">
-        <span class="text-danger" asp-validation-for="Email"></span>
 
-    </div>
+    @if (TempData["successMessage"] != null)
+    {
+        <div class="alert alert-success" role="alert">
+            @TempData["successMessage"]
+        </div>
+    }
 
-    <div class="col-md-12">
-        <label asp-for="Age" class="form-label">Age</label>
-        <input type="text" class="form-control" id="inputEmail4" asp-for="Age">
-        <span class="text-danger" asp-validation-for="Age"></span>
 
-    </div>
-    <div class="col-md-12">
-        <label asp-for="Password" class="form-label">Password</label>
-        <input type="password" class="form-control" id="inputPassword4" asp-for="Password">
-        <span class="text-danger" asp-validation-for="Password"></span>
 
-    </div>
+     <div class="col-md-12">
+        <label asp-for="StudentName" class="form-label">Student Name</label> 
+        <input type="text" class="form-control" id="inputEmail4" asp-for="StudentName"> 
+       <span class="text-danger" asp-validation-for="StudentName"></span> 
+
+     </div>
+     <div class="col-md-12"> 
+         <label asp-for="StudentClass" class="form-label">Student Class</label> 
+         <input type="text" class="form-control" id="inputEmail4" asp-for="StudentClass"> 
+         <span class="text-danger" asp-validation-for="StudentClass"></span> 
+
+   </div> 
+
+     <div class="col-md-12"> 
+        <label asp-for="StudentAge" class="form-label">Student Age</label> 
+         <input type="text" class="form-control" id="inputEmail4" asp-for="StudentAge"> 
+         <span class="text-danger" asp-validation-for="StudentAge"></span>
+
+     </div> 
+    @* <div class="col-md-12">  *@
+    @*     <label asp-for="Password" class="form-label">Password</label>  *@
+    @*     <input type="password" class="form-control" id="inputPassword4" asp-for="Password">  *@
+    @*     <span class="text-danger" asp-validation-for="Password"></span>  *@
+
+    @*  </div>  *@
 
 
     <div class="col-12">

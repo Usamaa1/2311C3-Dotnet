@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|c:\\users\\usama\\desktop\\dotnet mvc\\basicswithdbproject\\basicswithdbproject\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|solutionrelative:basicswithdbproject\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|c:\\users\\usama\\desktop\\dotnet mvc\\basicswithdbproject\\basicswithdbproject\\views\\student\\studentview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|solutionrelative:basicswithdbproject\\views\\student\\studentview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|c:\\users\\usama\\desktop\\dotnet mvc\\basicswithdbproject\\basicswithdbproject\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|solutionrelative:basicswithdbproject\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|c:\\users\\usama\\desktop\\dotnet mvc\\basicswithdbproject\\basicswithdbproject\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|solutionrelative:basicswithdbproject\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|c:\\users\\usama\\desktop\\dotnet mvc\\basicswithdbproject\\basicswithdbproject\\data\\db2311c3context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|solutionrelative:basicswithdbproject\\data\\db2311c3context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|c:\\users\\usama\\desktop\\dotnet mvc\\basicswithdbproject\\basicswithdbproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|solutionrelative:basicswithdbproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|c:\\users\\usama\\desktop\\dotnet mvc\\basicswithdbproject\\basicswithdbproject\\views\\home\\addemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|solutionrelative:basicswithdbproject\\views\\home\\addemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|c:\\users\\usama\\desktop\\dotnet mvc\\basicswithdbproject\\basicswithdbproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|solutionrelative:basicswithdbproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|c:\\users\\usama\\desktop\\dotnet mvc\\basicswithdbproject\\basicswithdbproject\\views\\student\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|solutionrelative:basicswithdbproject\\views\\student\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "BasicsWithDBProject\\Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Models\\Employee.cs*",
-              "RelativeToolTip": "BasicsWithDBProject\\Models\\Employee.cs*",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA1wBgAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "BasicsWithDBProject\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Models\\Student.cs",
+              "RelativeToolTip": "BasicsWithDBProject\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T07:22:58.811Z",
+              "WhenOpened": "2025-07-03T06:47:38.498Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "BasicsWithDBProject\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "BasicsWithDBProject\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAAB0AAACBAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "AddStudent.cshtml",
+              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Views\\Student\\AddStudent.cshtml",
+              "RelativeDocumentMoniker": "BasicsWithDBProject\\Views\\Student\\AddStudent.cshtml",
+              "ToolTip": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Views\\Student\\AddStudent.cshtml",
+              "RelativeToolTip": "BasicsWithDBProject\\Views\\Student\\AddStudent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-21T06:56:21.963Z",
+              "WhenOpened": "2025-07-01T09:10:49.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "BasicsWithDBProject\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "BasicsWithDBProject\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA5wB8AAAALAAAAAAAAAA==",
+              "Title": "Db2311C3Context.cs",
+              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Data\\Db2311C3Context.cs",
+              "RelativeDocumentMoniker": "BasicsWithDBProject\\Data\\Db2311C3Context.cs",
+              "ToolTip": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Data\\Db2311C3Context.cs",
+              "RelativeToolTip": "BasicsWithDBProject\\Data\\Db2311C3Context.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T06:54:13.426Z",
+              "WhenOpened": "2025-07-01T08:57:13.472Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddEmployee.cshtml",
-              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Views\\Home\\AddEmployee.cshtml",
-              "RelativeDocumentMoniker": "BasicsWithDBProject\\Views\\Home\\AddEmployee.cshtml",
-              "ToolTip": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Views\\Home\\AddEmployee.cshtml",
-              "RelativeToolTip": "BasicsWithDBProject\\Views\\Home\\AddEmployee.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BasicsWithDBProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BasicsWithDBProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-21T06:55:11.935Z",
+              "WhenOpened": "2025-07-01T08:58:15.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentView.cshtml",
+              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Views\\Student\\StudentView.cshtml",
+              "RelativeDocumentMoniker": "BasicsWithDBProject\\Views\\Student\\StudentView.cshtml",
+              "ToolTip": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Views\\Student\\StudentView.cshtml",
+              "RelativeToolTip": "BasicsWithDBProject\\Views\\Student\\StudentView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T08:52:13.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "BasicsWithDBProject\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Controllers\\StudentController.cs*",
+              "RelativeToolTip": "BasicsWithDBProject\\Controllers\\StudentController.cs*",
+              "ViewState": "AgIAABkAAAAAAAAAAADwvyYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T06:43:22.853Z",
               "EditorCaption": ""
             }
           ]
