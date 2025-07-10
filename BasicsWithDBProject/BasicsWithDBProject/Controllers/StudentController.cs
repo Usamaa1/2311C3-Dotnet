@@ -14,6 +14,8 @@ namespace BasicsWithDBProject.Controllers
         {
             return View();
         }
+
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult AddStudent(Student student)
@@ -28,7 +30,7 @@ namespace BasicsWithDBProject.Controllers
             }
             return View();
         }
-        public IActionResult StudentView()
+        public IActionResult StudentView() 
         {
             var student = _context.Students.ToList();
             return View(student);

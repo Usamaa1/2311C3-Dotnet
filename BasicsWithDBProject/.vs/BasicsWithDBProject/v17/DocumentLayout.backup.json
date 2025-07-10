@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|c:\\users\\usama\\desktop\\dotnet mvc\\basicswithdbproject\\basicswithdbproject\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|solutionrelative:basicswithdbproject\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|c:\\users\\usama\\desktop\\dotnet mvc\\basicswithdbproject\\basicswithdbproject\\views\\student\\studentview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|solutionrelative:basicswithdbproject\\views\\student\\studentview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|c:\\users\\usama\\desktop\\dotnet mvc\\basicswithdbproject\\basicswithdbproject\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|solutionrelative:basicswithdbproject\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|c:\\users\\usama\\desktop\\dotnet mvc\\basicswithdbproject\\basicswithdbproject\\views\\student\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|solutionrelative:basicswithdbproject\\views\\student\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|c:\\users\\usama\\desktop\\dotnet mvc\\basicswithdbproject\\basicswithdbproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|solutionrelative:basicswithdbproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|c:\\users\\usama\\desktop\\dotnet mvc\\basicswithdbproject\\basicswithdbproject\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|c:\\users\\usama\\desktop\\dotnet mvc\\basicswithdbproject\\basicswithdbproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|solutionrelative:basicswithdbproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|c:\\users\\usama\\desktop\\dotnet mvc\\basicswithdbproject\\basicswithdbproject\\views\\student\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{15CAC01C-92FE-4DEE-A9BA-7B0B76145568}|BasicsWithDBProject\\BasicsWithDBProject.csproj|solutionrelative:basicswithdbproject\\views\\student\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BasicsWithDBProject\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BasicsWithDBProject\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T06:17:27.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Models\\Student.cs",
               "RelativeDocumentMoniker": "BasicsWithDBProject\\Models\\Student.cs",
@@ -46,12 +63,11 @@
               "RelativeToolTip": "BasicsWithDBProject\\Models\\Student.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T06:47:38.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T06:47:38.498Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "AddStudent.cshtml",
               "DocumentMoniker": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Views\\Student\\AddStudent.cshtml",
               "RelativeDocumentMoniker": "BasicsWithDBProject\\Views\\Student\\AddStudent.cshtml",
@@ -64,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Db2311C3Context.cs",
               "DocumentMoniker": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Data\\Db2311C3Context.cs",
               "RelativeDocumentMoniker": "BasicsWithDBProject\\Data\\Db2311C3Context.cs",
@@ -72,12 +88,11 @@
               "RelativeToolTip": "BasicsWithDBProject\\Data\\Db2311C3Context.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAYwAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T08:57:13.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T08:57:13.472Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "BasicsWithDBProject\\Views\\Shared\\_Layout.cshtml",
@@ -85,12 +100,11 @@
               "RelativeToolTip": "BasicsWithDBProject\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T08:58:15.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T08:58:15.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "StudentView.cshtml",
               "DocumentMoniker": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Views\\Student\\StudentView.cshtml",
               "RelativeDocumentMoniker": "BasicsWithDBProject\\Views\\Student\\StudentView.cshtml",
@@ -103,13 +117,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "BasicsWithDBProject\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Controllers\\StudentController.cs*",
-              "RelativeToolTip": "BasicsWithDBProject\\Controllers\\StudentController.cs*",
-              "ViewState": "AgIAABkAAAAAAAAAAADwvyYAAAArAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\usama\\Desktop\\dotnet mvc\\BasicsWithDBProject\\BasicsWithDBProject\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "BasicsWithDBProject\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T06:43:22.853Z",
               "EditorCaption": ""
