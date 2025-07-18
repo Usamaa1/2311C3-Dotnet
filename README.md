@@ -325,6 +325,128 @@ Visit `https://localhost:5001` to access the application.
 
 ---
 
+
+
+# 🛒 EF Core SQL vs LINQ Comparison – Cart & Product Operations
+
+This document compares common e-commerce operations in SQL and Entity Framework Core LINQ queries. Use it as a cheat sheet for implementing cart and product functionality in a .NET API project.
+
+---
+
+## 1️⃣ Count Items in Cart
+
+| SQL | LINQ |
+|-----|------|
+| `SELECT COUNT(*) FROM CartItems WHERE UserId = 5;` | `var count = _context.CartItems.Count(ci => ci.UserId == 5);` |
+
+---
+
+## 2️⃣ Search Product by Name
+
+| SQL | LINQ |
+|-----|------|
+| `SELECT * FROM Products WHERE ProdName LIKE '%toy%';` | `var result = _context.Products.Where(p => p.ProdName.Contains("toy")).ToList();` |
+
+---
+
+## 3️⃣ Order Products by Price
+
+### Ascending
+
+| SQL | LINQ |
+|-----|------|
+| `SELECT * FROM Products ORDER BY ProdPrice ASC;` | `var sorted = _context.Products.OrderBy(p => p.ProdPrice).ToList();` |
+
+### Descending
+
+| SQL | LINQ |
+|-----|------|
+| `SELECT * FROM Products ORDER BY ProdPrice DESC;` | `var sorted = _context.Products.OrderByDescending(p => p.ProdPrice).ToList();` |
+
+---
+
+## 4️⃣ Add to Cart
+
+| SQL | LINQ |
+|-----|------|
+| `INSERT INTO CartItems (ProductId, UserId, Quantity) VALUES (3, 5, 1);` |```csharp
+var item = new CartItem {
+    ProductId = 3,
+    UserId = 5,
+    Quantity = 1
+};
+_context.CartItems.Add(item);
+_context.SaveChanges();
+```|
+
+---
+
+## 5️⃣ Remove from Cart
+
+| SQL | LINQ |
+|-----|------|
+| `DELETE FROM CartItems WHERE Id = 7;` |```csharp
+var item = _context.CartItems.FirstOrDefault(c => c.Id == 7);
+if (item != null) {
+    _context.CartItems.Remove(item);
+    _context.SaveChanges();
+}
+```|
+
+---
+
+## 6️⃣ Update Cart Quantity
+
+| SQL | LINQ |
+|-----|------|
+| `UPDATE CartItems SET Quantity = 3 WHERE Id = 7;` |```csharp
+var item = _context.CartItems.FirstOrDefault(c => c.Id == 7);
+if (item != null) {
+    item.Quantity = 3;
+    _context.SaveChanges();
+}
+```|
+
+---
+
+## 7️⃣ Filter Products by Category
+
+| SQL | LINQ |
+|-----|------|
+| `SELECT * FROM Products WHERE CategoryId = 2;` | `var products = _context.Products.Where(p => p.CategoryId == 2).ToList();` |
+
+---
+
+## 🔁 Include Related Category Data
+
+### SQL:
+```sql
+SELECT p.*, c.CategoryName
+FROM Products p
+JOIN Categories c ON p.CategoryId = c.Id
+WHERE p.CategoryId = 2;
+```
+
+### LINQ:
+```csharp
+var productsWithCategory = _context.Products
+    .Include(p => p.Category)
+    .Where(p => p.CategoryId == 2)
+    .ToList();
+```
+
+---
+
+## ✅ Notes
+
+- All LINQ examples use `EF Core` with `DbContext` instance `_context`.
+- Make sure `Microsoft.EntityFrameworkCore` and `Microsoft.EntityFrameworkCore.SqlServer` are installed.
+- For `Include()`, ensure `using Microsoft.EntityFrameworkCore;` is present.
+
+---
+
+
+
 ## 🎉 Conclusion
 
 This project offers a clean, production-style ASP.NET Core 9 MVC CRUD application with Razor Views and best practices for building robust web applications.
