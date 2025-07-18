@@ -377,9 +377,8 @@ var item = new CartItem {
 };
 _context.CartItems.Add(item);
 _context.SaveChanges();
-```|
 
----
+
 
 ## 5️⃣ Remove from Cart
 
@@ -391,7 +390,6 @@ if (item != null) {
     _context.CartItems.Remove(item);
     _context.SaveChanges();
 }
-```|
 
 ---
 
@@ -405,7 +403,7 @@ if (item != null) {
     item.Quantity = 3;
     _context.SaveChanges();
 }
-```|
+
 
 ---
 
