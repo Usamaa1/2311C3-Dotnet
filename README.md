@@ -433,6 +433,135 @@ var productsWithCategory = _context.Products
     .ToList();
 ```
 
+# Using the SQL LIKE Operator Equivalent in LINQ
+
+### 1. Contains() - Equivalent to %value%
+```csharp
+// SQL: WHERE Name LIKE '%searchTerm%'
+var results = context.Products
+    .Where(p => p.ProdName.Contains(searchTerm))
+    .ToList();
+```
+### 2. StartsWith() - Equivalent to value%
+```csharp
+// SQL: WHERE Name LIKE 'searchTerm%'
+var results = context.Products
+    .Where(p => p.ProdName.StartsWith(searchTerm))
+    .ToList();
+```
+### 3. EndsWith() - Equivalent to %value
+```csharp
+// SQL: WHERE Name LIKE '%searchTerm'
+var results = context.Products
+    .Where(p => p.ProdName.EndsWith(searchTerm))
+    .ToList();
+```
+
+## Case Sensitivity Options
+```csharp
+// Case-sensitive (default in most databases)
+.Where(p => p.ProdName.Contains(searchTerm))
+
+// Case-insensitive
+.Where(p => p.ProdName.ToLower().Contains(searchTerm.ToLower()))
+// Or
+.Where(p => EF.Functions.Like(p.ProdName, $"%{searchTerm}%"))
+```
+## Complex Pattern Examples
+```csharp
+// Multiple conditions
+var results = context.Products
+    .Where(p => p.ProdName.StartsWith("A") || 
+                p.ProdName.Contains("B") || 
+                p.ProdName.EndsWith("Z"))
+    .ToList();
+
+// Combined with other conditions
+var results = context.Products
+    .Where(p => p.ProdName.Contains(searchTerm) && 
+                p.Price > 100)
+    .ToList();
+```
+| LINQ Method         | SQL Equivalent     |
+|---------------------|--------------------|
+| `Contains`          | `LIKE '%value%'`   |
+| `StartsWith`        | `LIKE 'value%'`    |
+| `EndsWith`          | `LIKE '%value'`    |
+| `EF.Functions.Like` | `LIKE 'pattern'`   |
+
+
+# Methods for Raw SQL in EF Core (.NET 9)
+
+### 1. FromSqlRaw() - For Querying
+```csharp
+// In your ProductsController
+[HttpGet("sql")]
+public async Task<ActionResult<IEnumerable<ProductDTO>>> GetProductsWithSql()
+{
+    var products = await _context.Products
+        .FromSqlRaw("SELECT * FROM Products WHERE ProdPrice > {0}", 50)
+        .Include(p => p.Category) // You can still use Include with raw SQL
+        .Select(p => new ProductDTO 
+        {
+            // Map to DTO
+        })
+        .ToListAsync();
+
+    return Ok(products);
+}
+```
+### 2. ExecuteSqlRaw() - For Non-Query Commands
+```csharp
+// In your ProductsController
+[HttpPost("sql")]
+public async Task<IActionResult> CreateProductWithSql(ProductCreateDTO productDTO)
+{
+    var rowsAffected = await _context.Database.ExecuteSqlRawAsync(
+        "INSERT INTO Products (ProdName, ProdPrice, ProdDesc, ProdImage, CategoryId) " +
+        "VALUES ({0}, {1}, {2}, {3}, {4})",
+        productDTO.ProdName,
+        productDTO.ProdPrice,
+        productDTO.ProdDesc,
+        productDTO.ProdImage,
+        productDTO.CategoryId);
+
+    if (rowsAffected > 0)
+        return Ok();
+    else
+        return BadRequest("Failed to create product");
+}
+```
+
+## Raw SQL Methods in Entity Framework Core
+
+## FromSqlRaw (Querying Data)
+
+**Purpose:**  
+Used to execute SQL queries that return data (`SELECT` statements)
+
+**Key Characteristics:**
+
+- Returns an `IQueryable<T>` that can be further composed with LINQ operators  
+- Used for read operations that retrieve entities  
+- Can be combined with `Include()` for related data loading  
+- Automatically maps results to your entity types  
+
+---
+
+## ExecuteSqlRawAsync (Non-Query Commands)
+
+**Purpose:**  
+Used to execute SQL commands that don't return data (`INSERT`, `UPDATE`, `DELETE`, etc.)
+
+**Key Characteristics:**
+
+- Returns the number of rows affected (`int`)  
+- Used for write operations that modify data  
+- Doesn't return entities – just reports how many rows were changed  
+- Doesn't support composition with LINQ operators  
+
+
+
 ---
 
 ## ✅ Notes
