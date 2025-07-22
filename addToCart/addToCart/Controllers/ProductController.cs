@@ -73,7 +73,20 @@ namespace addToCart.Controllers
         [HttpGet("catProd")]
         public IActionResult getProductsWithCategory()
         {
-            var data = _context.Products.Include(item => item.Category).ToList();
+            var data = _context.Products.
+                Include(item => item.Category).
+                Select(item => new ProductDTO
+                {
+                    Id = item.Id,
+                    ProdName = item.ProdName,
+                    ProdDesc = item.ProdDesc,
+                    ProdImage = item.ProdImage,
+                    ProdPrice = item.ProdPrice,
+                    CategoryId = item.CategoryId,
+                    CategoryName = item.Category.CategoryName
+                }
+
+                ).ToList();
             
             
             
