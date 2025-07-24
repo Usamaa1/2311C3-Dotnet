@@ -8,9 +8,34 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "product",
-        "Type": "addToCart.Models.Product",
-        "IsRequired": true
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProdName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProdPrice",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProdDesc",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProdImage",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

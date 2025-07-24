@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+5c2VhEeZ68=",
+  "dgSpecHash": "8AKL12+uwMI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\usama\\Desktop\\dotnet mvc\\addToCart\\addToCart\\addToCart.csproj",
+  "projectFilePath": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\addToCart.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\usama\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\usama\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

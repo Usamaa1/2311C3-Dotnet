@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\Upload\\57cd9fc7-677d-4237-af81-441f81100652.jpg",
+      "PackagePath": "staticwebassets\\Upload\\57cd9fc7-677d-4237-af81-441f81100652.jpg"
+    },
+    {
+      "Id": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\Upload\\d8067dfa-7550-4173-acd3-d48b767bcf2a.jpg",
+      "PackagePath": "staticwebassets\\Upload\\d8067dfa-7550-4173-acd3-d48b767bcf2a.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.addToCart.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.addToCart.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.addToCart.props",
+      "PackagePath": "build\\addToCart.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.addToCart.props",
+      "PackagePath": "buildMultiTargeting\\addToCart.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.addToCart.props",
+      "PackagePath": "buildTransitive\\addToCart.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

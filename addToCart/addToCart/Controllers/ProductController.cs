@@ -11,10 +11,14 @@ namespace addToCart.Controllers
     public class ProductController : ControllerBase
     {
         private readonly CartDbContext _context;
+        private readonly IWebHostEnvironment _enviornment;
+        private readonly IConfiguration _config;
 
-        public ProductController(CartDbContext context)
+        public ProductController(CartDbContext context, IWebHostEnvironment enviornment, IConfiguration config)
         {
             _context = context;
+            _enviornment = enviornment;
+            _config = config;
         }
 
 
@@ -46,17 +50,61 @@ namespace addToCart.Controllers
 
 
         [HttpPost]
-        public IActionResult addProduct(Product product)
+        public async Task<IActionResult> addProduct(ProductCreate product)
         {
             try
             {
 
-                if(product != null)
-                {
-                    _context.Products.Add(product);
-                    _context.SaveChanges();
-                    return Ok("Product Added");
+                if (product != null) {
+
+                    if (product.ProdImage != null) {
+
+                        var uploadPath = _config["StoredFilesPath"];
+
+                        if (!Directory.Exists(uploadPath))
+                            Directory.CreateDirectory(uploadPath);
+
+
+                        var extension = Path.GetExtension(product.ProdImage.FileName);
+                        var imageName = Guid.NewGuid().ToString() + extension;
+                                        //7jfkdj47-dfs33kfds-fkjs + .jpg
+                        var filePath = Path.Combine(uploadPath, imageName); //  wwwroot/upload/7jfkdj47-dfs33kfds-fkjs.jpg
+
+                        using (var stream = System.IO.File.Create(filePath))
+                        {
+                            await product.ProdImage.CopyToAsync(stream);
+                        }
+
+
+                        var prod = new Product
+                        {
+                            ProdName = product.ProdName,
+                            ProdPrice = product.ProdPrice,
+                            ProdDesc = product.ProdDesc,
+                            ProdImage = imageName,
+                            CategoryId = product.CategoryId,
+                        };
+
+
+                        _context.Products.Add(prod);
+                        _context.SaveChanges();
+                        return Ok("Product Added Successfully!");
+
+
+
+
+
+
+                    }
+                
+                
                 }
+
+            
+
+
+
+
                 return StatusCode(204);
 
 
