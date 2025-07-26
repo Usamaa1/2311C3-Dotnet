@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\Upload\\15b9e600-da01-4ce2-b334-267dd72d57a1.jpg",
+      "PackagePath": "staticwebassets\\Upload\\15b9e600-da01-4ce2-b334-267dd72d57a1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\Upload\\312771d0-2830-4a3b-af59-b73eb829c936.jpg",
+      "PackagePath": "staticwebassets\\Upload\\312771d0-2830-4a3b-af59-b73eb829c936.jpg"
+    },
+    {
       "Id": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\Upload\\57cd9fc7-677d-4237-af81-441f81100652.jpg",
       "PackagePath": "staticwebassets\\Upload\\57cd9fc7-677d-4237-af81-441f81100652.jpg"
     },

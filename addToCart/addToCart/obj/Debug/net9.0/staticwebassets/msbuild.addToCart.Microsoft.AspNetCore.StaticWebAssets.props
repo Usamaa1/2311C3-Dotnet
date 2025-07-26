@@ -1,5 +1,41 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Upload\15b9e600-da01-4ce2-b334-267dd72d57a1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>addToCart</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/addToCart</BasePath>
+      <RelativePath>Upload/15b9e600-da01-4ce2-b334-267dd72d57a1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bq5uote28r</Fingerprint>
+      <Integrity>fXuLAg145Li+ZiQNi6bMTaMeHbKAy2Lo9WiTdW5S53A=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Upload\15b9e600-da01-4ce2-b334-267dd72d57a1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Upload\312771d0-2830-4a3b-af59-b73eb829c936.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>addToCart</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/addToCart</BasePath>
+      <RelativePath>Upload/312771d0-2830-4a3b-af59-b73eb829c936.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bq5uote28r</Fingerprint>
+      <Integrity>fXuLAg145Li+ZiQNi6bMTaMeHbKAy2Lo9WiTdW5S53A=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Upload\312771d0-2830-4a3b-af59-b73eb829c936.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Upload\57cd9fc7-677d-4237-af81-441f81100652.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>addToCart</SourceId>
