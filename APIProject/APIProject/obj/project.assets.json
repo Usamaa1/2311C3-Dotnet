@@ -4782,11 +4782,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\usama\\Desktop\\dotnet mvc\\APIProject\\APIProject\\APIProject.csproj",
+      "projectUniqueName": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\APIProject\\APIProject\\APIProject.csproj",
       "projectName": "APIProject",
-      "projectPath": "C:\\Users\\usama\\Desktop\\dotnet mvc\\APIProject\\APIProject\\APIProject.csproj",
+      "projectPath": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\APIProject\\APIProject\\APIProject.csproj",
       "packagesPath": "C:\\Users\\usama\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\usama\\Desktop\\dotnet mvc\\APIProject\\APIProject\\obj\\",
+      "outputPath": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\APIProject\\APIProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -4864,7 +4864,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

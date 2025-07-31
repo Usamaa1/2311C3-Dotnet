@@ -11,6 +11,19 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddDbContext<Db2311C3Context>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("myConnection")));
 
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(MyAllowSpecificOrigins,
+                          policy =>
+                          {
+                              policy.AllowAnyOrigin()
+                                    .AllowAnyHeader()
+                                    .AllowAnyMethod();
+                          });
+});
+
 
 var app = builder.Build();
 
@@ -23,6 +36,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors(MyAllowSpecificOrigins);
 
 app.UseAuthorization();
 

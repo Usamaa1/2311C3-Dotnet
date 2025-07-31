@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Product</title>
+        <!-- Font Awesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+        <!-- MDB -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/9.1.0/mdb.min.css" rel="stylesheet" />
+</head>
+<body>
+    <h1 class="text-center my-4">All Products</h1>
+    <div class="container">
+        <table class="table align-middle mb-0 bg-white">
+            <thead class="bg-light">
+              <tr>
+                <th>Product Id</th>
+                <th>Product Name</th>
+                <th>Product Price</th>
+                <th>Product Description</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody">
+             
+       
+            </tbody>
+          </table>
+    </div>
+</body>
+<!-- MDB -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/9.1.0/mdb.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+
+<script>
+
+
+let tableBody = document.getElementById('tableBody');
+
+async function getProduct() {
+  try {
+    const response = await axios.get('http://localhost:5025/api/product');
+    console.log(response.data);
+
+
+    const prodData = response.data;
+
+    prodData.map(item => {
+
+        tableBody.innerHTML += `
+        <tr>
+                <td>
+                    <p class="fw-normal mb-1">${item.id}</p>
+              </td>
+
+                <td>
+                  <p class="fw-normal mb-1">${item.prodName}</p>
+                 
+                </td>
+                <td>
+                    <p class="fw-normal mb-1">${item.prodPrice}</p>
+
+                </td>
+                <td>                  <p class="fw-normal mb-1">${item.prodDesc}</p>
+</td>
+                <td>
+                  <button type="button" class="btn btn-link btn-sm btn-rounded" onClick="deleteProduct(${item.id})">
+                    Delete
+                  </button>
+                  <button type="button" class="btn btn-link btn-sm btn-rounded">
+                    Edit
+                  </button>
+                </td>
+              </tr>
+        
+        `
+
+    })
+
+
+
+
+
+
+
+
+
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+getProduct();
+
+
+
+const deleteProduct = async (delId)=>{
+    try {
+        const response = await axios.delete(`http://localhost:5025/api/product?delId=${delId}`);
+        console.log(response)
+    } catch (error) {
+        console.log(error)
+    }
+}
+
+
+
+</script>
+
+
+
+
+</html>

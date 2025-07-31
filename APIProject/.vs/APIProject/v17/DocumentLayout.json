@@ -1,26 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\usama\\Desktop\\dotnet mvc\\APIProject\\",
+  "WorkspaceRootPath": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\APIProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{032B19E7-1809-4296-8388-A0E4C92F6596}|APIProject\\APIProject.csproj|c:\\users\\usama\\desktop\\dotnet mvc\\apiproject\\apiproject\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/db2311C3/True/SqlTable/dbo.Products.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{032B19E7-1809-4296-8388-A0E4C92F6596}|APIProject\\APIProject.csproj|c:\\users\\usama\\desktop\\2311c3-dotnet\\2311c3-dotnet\\apiproject\\apiproject\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{032B19E7-1809-4296-8388-A0E4C92F6596}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{032B19E7-1809-4296-8388-A0E4C92F6596}|APIProject\\APIProject.csproj|c:\\users\\usama\\desktop\\dotnet mvc\\apiproject\\apiproject\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{032B19E7-1809-4296-8388-A0E4C92F6596}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{032B19E7-1809-4296-8388-A0E4C92F6596}|APIProject\\APIProject.csproj|c:\\users\\usama\\desktop\\dotnet mvc\\apiproject\\apiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{032B19E7-1809-4296-8388-A0E4C92F6596}|APIProject\\APIProject.csproj|c:\\users\\usama\\desktop\\2311c3-dotnet\\2311c3-dotnet\\apiproject\\apiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{032B19E7-1809-4296-8388-A0E4C92F6596}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{032B19E7-1809-4296-8388-A0E4C92F6596}|APIProject\\APIProject.csproj|c:\\users\\usama\\desktop\\dotnet mvc\\apiproject\\apiproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{032B19E7-1809-4296-8388-A0E4C92F6596}|APIProject\\APIProject.csproj|c:\\users\\usama\\desktop\\2311c3-dotnet\\2311c3-dotnet\\apiproject\\apiproject\\apiproject.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{032B19E7-1809-4296-8388-A0E4C92F6596}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\apiproject.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{032B19E7-1809-4296-8388-A0E4C92F6596}|APIProject\\APIProject.csproj|c:\\users\\usama\\desktop\\2311c3-dotnet\\2311c3-dotnet\\apiproject\\apiproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{032B19E7-1809-4296-8388-A0E4C92F6596}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{032B19E7-1809-4296-8388-A0E4C92F6596}|APIProject\\APIProject.csproj|c:\\users\\usama\\desktop\\dotnet mvc\\apiproject\\apiproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\APIProject\\APIProject\\Migrations\\20250731062229_createDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:APIProject\\Migrations\\20250731062229_createDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{032B19E7-1809-4296-8388-A0E4C92F6596}|APIProject\\APIProject.csproj|c:\\users\\usama\\desktop\\2311c3-dotnet\\2311c3-dotnet\\apiproject\\apiproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{032B19E7-1809-4296-8388-A0E4C92F6596}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{032B19E7-1809-4296-8388-A0E4C92F6596}|APIProject\\APIProject.csproj|c:\\users\\usama\\desktop\\2311c3-dotnet\\2311c3-dotnet\\apiproject\\apiproject\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{032B19E7-1809-4296-8388-A0E4C92F6596}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,28 +41,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\dotnet mvc\\APIProject\\APIProject\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "APIProject\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\usama\\Desktop\\dotnet mvc\\APIProject\\APIProject\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "APIProject\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T08:07:36.535Z",
+              "DocumentIndex": 0,
+              "Title": "dbo.Products [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/db2311C3/True/SqlTable/dbo.Products.sql",
+              "ToolTip": "dbo.Products [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-31T06:54:08.979Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\APIProject\\APIProject\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "APIProject\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\APIProject\\APIProject\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "APIProject\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T08:07:36.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\dotnet mvc\\APIProject\\APIProject\\Models\\Product.cs",
+              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\APIProject\\APIProject\\Models\\Product.cs",
               "RelativeDocumentMoniker": "APIProject\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\usama\\Desktop\\dotnet mvc\\APIProject\\APIProject\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\APIProject\\APIProject\\Models\\Product.cs",
               "RelativeToolTip": "APIProject\\Models\\Product.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -60,41 +80,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\dotnet mvc\\APIProject\\APIProject\\Controllers\\ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\APIProject\\APIProject\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "APIProject\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\usama\\Desktop\\dotnet mvc\\APIProject\\APIProject\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\APIProject\\APIProject\\Controllers\\ProductController.cs",
               "RelativeToolTip": "APIProject\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAmwB8AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwC4AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-12T07:09:49.114Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\dotnet mvc\\APIProject\\APIProject\\appsettings.json",
-              "RelativeDocumentMoniker": "APIProject\\appsettings.json",
-              "ToolTip": "C:\\Users\\usama\\Desktop\\dotnet mvc\\APIProject\\APIProject\\appsettings.json",
-              "RelativeToolTip": "APIProject\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-12T07:01:59.807Z",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\APIProject\\APIProject\\Program.cs",
+              "RelativeDocumentMoniker": "APIProject\\Program.cs",
+              "ToolTip": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\APIProject\\APIProject\\Program.cs",
+              "RelativeToolTip": "APIProject\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T06:46:48.587Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\dotnet mvc\\APIProject\\APIProject\\Program.cs",
-              "RelativeDocumentMoniker": "APIProject\\Program.cs",
-              "ToolTip": "C:\\Users\\usama\\Desktop\\dotnet mvc\\APIProject\\APIProject\\Program.cs",
-              "RelativeToolTip": "APIProject\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "20250731062229_createDB.cs",
+              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\APIProject\\APIProject\\Migrations\\20250731062229_createDB.cs",
+              "RelativeDocumentMoniker": "APIProject\\Migrations\\20250731062229_createDB.cs",
+              "ToolTip": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\APIProject\\APIProject\\Migrations\\20250731062229_createDB.cs",
+              "RelativeToolTip": "APIProject\\Migrations\\20250731062229_createDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T06:46:48.587Z",
+              "WhenOpened": "2025-07-31T06:22:29.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "APIProject.http",
+              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\APIProject\\APIProject\\APIProject.http",
+              "RelativeDocumentMoniker": "APIProject\\APIProject.http",
+              "ToolTip": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\APIProject\\APIProject\\APIProject.http",
+              "RelativeToolTip": "APIProject\\APIProject.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-07-31T06:52:53.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\APIProject\\APIProject\\appsettings.json",
+              "RelativeDocumentMoniker": "APIProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\APIProject\\APIProject\\appsettings.json",
+              "RelativeToolTip": "APIProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-12T07:01:59.807Z",
               "EditorCaption": ""
             }
           ]
