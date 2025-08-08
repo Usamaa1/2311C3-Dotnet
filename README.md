@@ -573,6 +573,84 @@ Used to execute SQL commands that don't return data (`INSERT`, `UPDATE`, `DELETE
 ---
 
 
+# Clean URLs in IIS using web.config
+
+This setup allows you to access your HTML files without the `.html` extension in the URL, 
+e.g., `/about` instead of `/about.html`.
+
+## web.config Example
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <system.webServer>
+    <rewrite>
+      <rules>
+        <!-- Rule: Serve HTML files without extension -->
+        <rule name="Clean URLs" stopProcessing="true">
+          <match url="^(.*)$" />
+          <conditions>
+            <!-- Ignore requests for actual files -->
+            <add input="{REQUEST_FILENAME}" matchType="IsFile" negate="true" />
+            <!-- Ignore requests for directories -->
+            <add input="{REQUEST_FILENAME}" matchType="IsDirectory" negate="true" />
+          </conditions>
+          <action type="Rewrite" url="{R:1}.html" />
+        </rule>
+      </rules>
+    </rewrite>
+    <staticContent>
+      <mimeMap fileExtension=".html" mimeType="text/html" />
+    </staticContent>
+  </system.webServer>
+</configuration>
+```
+
+## How it Works
+
+```plaintext
+┌─────────────────────┐
+│  Browser Requests   │
+│   URL: /about       │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│  IIS Receives       │
+│  "/about" request   │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────────────┐
+│ Does /about exist as a file?│─── No
+└──────────┬──────────────────┘
+           │
+           ▼
+┌───────────────────────────────┐
+│ Does /about exist as a folder?│─── No
+└──────────┬────────────────────┘
+           │
+           ▼
+┌─────────────────────────────┐
+│ Apply Rewrite Rule:         │
+│ "/about" → "/about.html"    │
+└──────────┬──────────────────┘
+           │
+           ▼
+┌─────────────────────┐
+│  IIS Serves         │
+│  about.html         │
+│  (URL stays /about) │
+└─────────────────────┘
+```
+
+**Key Points:**
+- The browser never sees the `.html` extension.
+- IIS internally rewrites the request — no redirect occurs.
+- Works for any `.html` file in the root folder.
+
+
+
 
 ## 🎉 Conclusion
 
