@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|c:\\users\\usama\\desktop\\2311c3-dotnet\\2311c3-dotnet\\addtocart\\addtocart\\wwwroot\\web.config||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|solutionrelative:addtocart\\wwwroot\\web.config||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|c:\\users\\usama\\desktop\\2311c3-dotnet\\2311c3-dotnet\\addtocart\\addtocart\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|solutionrelative:addtocart\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|c:\\users\\usama\\desktop\\2311c3-dotnet\\2311c3-dotnet\\addtocart\\addtocart\\controllers\\addtocartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|solutionrelative:addtocart\\controllers\\addtocartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|c:\\users\\usama\\desktop\\2311c3-dotnet\\2311c3-dotnet\\addtocart\\addtocart\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|solutionrelative:addtocart\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|c:\\users\\usama\\desktop\\2311c3-dotnet\\2311c3-dotnet\\addtocart\\addtocart\\controllers\\placeordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|solutionrelative:addtocart\\controllers\\placeordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|c:\\users\\usama\\desktop\\2311c3-dotnet\\2311c3-dotnet\\addtocart\\addtocart\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|solutionrelative:addtocart\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|c:\\users\\usama\\desktop\\2311c3-dotnet\\2311c3-dotnet\\addtocart\\addtocart\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|solutionrelative:addtocart\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|c:\\users\\usama\\desktop\\2311c3-dotnet\\2311c3-dotnet\\addtocart\\addtocart\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|solutionrelative:addtocart\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|c:\\users\\usama\\desktop\\2311c3-dotnet\\2311c3-dotnet\\addtocart\\addtocart\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +45,6 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CartDB/True/SqlTable/dbo.Product.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|c:\\users\\usama\\desktop\\2311c3-dotnet\\2311c3-dotnet\\addtocart\\addtocart\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|solutionrelative:addtocart\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|c:\\users\\usama\\desktop\\2311c3-dotnet\\2311c3-dotnet\\addtocart\\addtocart\\data\\cartdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|solutionrelative:addtocart\\data\\cartdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,16 +53,8 @@
       "RelativeMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|solutionrelative:addtocart\\addtocart.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|c:\\users\\usama\\desktop\\2311c3-dotnet\\2311c3-dotnet\\addtocart\\addtocart\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|solutionrelative:addtocart\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|c:\\users\\usama\\desktop\\2311c3-dotnet\\2311c3-dotnet\\addtocart\\addtocart\\models\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|solutionrelative:addtocart\\models\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|c:\\users\\usama\\desktop\\2311c3-dotnet\\2311c3-dotnet\\addtocart\\addtocart\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|solutionrelative:addtocart\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{642E2B57-1949-437D-8091-1EE07F77270C}|addToCart\\addToCart.csproj|c:\\users\\usama\\desktop\\2311c3-dotnet\\2311c3-dotnet\\addtocart\\addtocart\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -52,44 +68,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "dbo.Product [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CartDB/True/SqlTable/dbo.Product.sql",
-              "ToolTip": "dbo.Product [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-07-26T07:42:29.465Z",
+              "DocumentIndex": 0,
+              "Title": "web.config",
+              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\web.config",
+              "RelativeDocumentMoniker": "addToCart\\wwwroot\\web.config",
+              "ToolTip": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\web.config",
+              "RelativeToolTip": "addToCart\\wwwroot\\web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-08-09T06:21:50.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "dbo.Cart [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CartDB/True/SqlTable/dbo.Cart.sql",
-              "ToolTip": "dbo.Cart [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-07-26T07:41:17.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "addToCart\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\Controllers\\UserController.cs",
-              "RelativeToolTip": "addToCart\\Controllers\\UserController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowCwAAAApAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "addToCart\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\Models\\Order.cs",
+              "RelativeToolTip": "addToCart\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T07:33:20.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T06:36:00.696Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "PlaceOrderController.cs",
+              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\Controllers\\PlaceOrderController.cs",
+              "RelativeDocumentMoniker": "addToCart\\Controllers\\PlaceOrderController.cs",
+              "ToolTip": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\Controllers\\PlaceOrderController.cs",
+              "RelativeToolTip": "addToCart\\Controllers\\PlaceOrderController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwBMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T06:32:15.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Cart.cs",
               "DocumentMoniker": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\Models\\Cart.cs",
               "RelativeDocumentMoniker": "addToCart\\Models\\Cart.cs",
@@ -97,25 +117,23 @@
               "RelativeToolTip": "addToCart\\Models\\Cart.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T07:27:18.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-26T07:27:18.107Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AddToCartController.cs",
               "DocumentMoniker": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\Controllers\\AddToCartController.cs",
               "RelativeDocumentMoniker": "addToCart\\Controllers\\AddToCartController.cs",
               "ToolTip": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\Controllers\\AddToCartController.cs",
               "RelativeToolTip": "addToCart\\Controllers\\AddToCartController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCYAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T07:23:16.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-26T07:23:16.63Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "addToCart.http",
               "DocumentMoniker": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\addToCart.http",
               "RelativeDocumentMoniker": "addToCart\\addToCart.http",
@@ -123,12 +141,78 @@
               "RelativeToolTip": "addToCart\\addToCart.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-07-26T07:37:26.389Z",
+              "WhenOpened": "2025-07-26T07:37:26.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "addToCart\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "addToCart\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAkwHwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T07:37:31.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "addToCart\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\Models\\OrderItem.cs",
+              "RelativeToolTip": "addToCart\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T06:36:17.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "addToCart\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\Controllers\\UserController.cs",
+              "RelativeToolTip": "addToCart\\Controllers\\UserController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowCwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T07:33:20.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "dbo.Cart.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CartDB/True/SqlTable/dbo.Cart.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CartDB/True/SqlTable/dbo.Cart.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-26T07:41:17.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "addToCart\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\Models\\Product.cs",
+              "RelativeToolTip": "addToCart\\Models\\Product.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T07:02:54.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "dbo.Product.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CartDB/True/SqlTable/dbo.Product.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CartDB/True/SqlTable/dbo.Product.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-26T07:42:29.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "CartDbContext.cs",
               "DocumentMoniker": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\Data\\CartDbContext.cs",
               "RelativeDocumentMoniker": "addToCart\\Data\\CartDbContext.cs",
@@ -136,12 +220,11 @@
               "RelativeToolTip": "addToCart\\Data\\CartDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T07:24:06.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-26T07:24:06.19Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "CartDto.cs",
               "DocumentMoniker": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\Models\\CartDto.cs",
               "RelativeDocumentMoniker": "addToCart\\Models\\CartDto.cs",
@@ -149,25 +232,11 @@
               "RelativeToolTip": "addToCart\\Models\\CartDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T07:27:15.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-26T07:27:15.16Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "addToCart\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\Models\\Product.cs",
-              "RelativeToolTip": "addToCart\\Models\\Product.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBUAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T07:02:54.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\Program.cs",
               "RelativeDocumentMoniker": "addToCart\\Program.cs",
@@ -175,21 +244,7 @@
               "RelativeToolTip": "addToCart\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T07:40:47.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "addToCart\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "addToCart\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAcwFgAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T07:37:31.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T07:40:47.225Z"
             }
           ]
         }

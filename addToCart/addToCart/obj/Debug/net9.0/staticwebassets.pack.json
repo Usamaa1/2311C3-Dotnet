@@ -13,8 +13,24 @@
       "PackagePath": "staticwebassets\\Upload\\57cd9fc7-677d-4237-af81-441f81100652.jpg"
     },
     {
+      "Id": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\Upload\\63a5c3e2-3fb4-4421-be35-febef32598be.jpg",
+      "PackagePath": "staticwebassets\\Upload\\63a5c3e2-3fb4-4421-be35-febef32598be.jpg"
+    },
+    {
       "Id": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\Upload\\d8067dfa-7550-4173-acd3-d48b767bcf2a.jpg",
       "PackagePath": "staticwebassets\\Upload\\d8067dfa-7550-4173-acd3-d48b767bcf2a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\frontend for API\\addProduct.html",
+      "PackagePath": "staticwebassets\\frontend for API\\addProduct.html"
+    },
+    {
+      "Id": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\frontend for API\\viewProduct.html",
+      "PackagePath": "staticwebassets\\frontend for API\\viewProduct.html"
+    },
+    {
+      "Id": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\web.config",
+      "PackagePath": "staticwebassets\\web.config"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.addToCart.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

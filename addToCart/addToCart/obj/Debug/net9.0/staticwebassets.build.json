@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nUNW0+lEqJyajr7azW1n1gKIM0m7+S1KsMrkMa49UZ4=",
+  "Hash": "aRk/XbJ0rEfok3LUkVPcGH/YVENd/9ByMJSli1oFayQ=",
   "Source": "addToCart",
   "BasePath": "_content/addToCart",
   "Mode": "Default",
@@ -16,6 +16,90 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\obj\\Debug\\net9.0\\compressed\\5uzjwzcrjh-o29q6stiul.gz",
+      "SourceId": "addToCart",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/addToCart",
+      "RelativePath": "frontend for API/addProduct#[.{fingerprint=o29q6stiul}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\frontend for API\\addProduct.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "zvqt1ylo18",
+      "Integrity": "oRnUueln5Jef9BjcBURmmSgZfE2O2ugRYzIiVcA7Q9g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\frontend for API\\addProduct.html"
+    },
+    {
+      "Identity": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\obj\\Debug\\net9.0\\compressed\\vy6oe5lk33-pdjgu7bwhu.gz",
+      "SourceId": "addToCart",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/addToCart",
+      "RelativePath": "frontend for API/viewProduct#[.{fingerprint=pdjgu7bwhu}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\frontend for API\\viewProduct.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "w12pgtytp1",
+      "Integrity": "XCUlSTehAVa9PSya6JuULkPpUrCP0cU56Op/EtXWtlM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\frontend for API\\viewProduct.html"
+    },
+    {
+      "Identity": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\frontend for API\\addProduct.html",
+      "SourceId": "addToCart",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\",
+      "BasePath": "_content/addToCart",
+      "RelativePath": "frontend for API/addProduct#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o29q6stiul",
+      "Integrity": "kEmyl8ycnFykxLYcKF1cbnnGhluWaMc028A/7Hy84k4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\frontend for API\\addProduct.html"
+    },
+    {
+      "Identity": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\frontend for API\\viewProduct.html",
+      "SourceId": "addToCart",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\",
+      "BasePath": "_content/addToCart",
+      "RelativePath": "frontend for API/viewProduct#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pdjgu7bwhu",
+      "Integrity": "HdDNpG0JpMlhPeUNCNUUe68hJzgH8SonQwr30PPW9Dc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\frontend for API\\viewProduct.html"
+    },
     {
       "Identity": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\Upload\\15b9e600-da01-4ce2-b334-267dd72d57a1.jpg",
       "SourceId": "addToCart",
@@ -80,6 +164,27 @@
       "OriginalItemSpec": "wwwroot\\Upload\\57cd9fc7-677d-4237-af81-441f81100652.jpg"
     },
     {
+      "Identity": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\Upload\\63a5c3e2-3fb4-4421-be35-febef32598be.jpg",
+      "SourceId": "addToCart",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\",
+      "BasePath": "_content/addToCart",
+      "RelativePath": "Upload/63a5c3e2-3fb4-4421-be35-febef32598be#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bq5uote28r",
+      "Integrity": "fXuLAg145Li+ZiQNi6bMTaMeHbKAy2Lo9WiTdW5S53A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\63a5c3e2-3fb4-4421-be35-febef32598be.jpg"
+    },
+    {
       "Identity": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\Upload\\d8067dfa-7550-4173-acd3-d48b767bcf2a.jpg",
       "SourceId": "addToCart",
       "SourceType": "Discovered",
@@ -99,9 +204,626 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Upload\\d8067dfa-7550-4173-acd3-d48b767bcf2a.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\web.config",
+      "SourceId": "addToCart",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\",
+      "BasePath": "_content/addToCart",
+      "RelativePath": "web#[.{fingerprint}]?.config",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mlbftg6g6u",
+      "Integrity": "hjp37h57RlqPTwqZ9oIaswcCM/PdJzH1/T5YLEhOU8I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\web.config"
     }
   ],
   "Endpoints": [
+    {
+      "Route": "frontend for API/addProduct.html",
+      "AssetFile": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\obj\\Debug\\net9.0\\compressed\\5uzjwzcrjh-o29q6stiul.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000982318271"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1017"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oRnUueln5Jef9BjcBURmmSgZfE2O2ugRYzIiVcA7Q9g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:18:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kEmyl8ycnFykxLYcKF1cbnnGhluWaMc028A/7Hy84k4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kEmyl8ycnFykxLYcKF1cbnnGhluWaMc028A/7Hy84k4="
+        }
+      ]
+    },
+    {
+      "Route": "frontend for API/addProduct.html",
+      "AssetFile": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\frontend for API\\addProduct.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2957"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kEmyl8ycnFykxLYcKF1cbnnGhluWaMc028A/7Hy84k4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:18:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kEmyl8ycnFykxLYcKF1cbnnGhluWaMc028A/7Hy84k4="
+        }
+      ]
+    },
+    {
+      "Route": "frontend for API/addProduct.html.gz",
+      "AssetFile": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\obj\\Debug\\net9.0\\compressed\\5uzjwzcrjh-o29q6stiul.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oRnUueln5Jef9BjcBURmmSgZfE2O2ugRYzIiVcA7Q9g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:18:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oRnUueln5Jef9BjcBURmmSgZfE2O2ugRYzIiVcA7Q9g="
+        }
+      ]
+    },
+    {
+      "Route": "frontend for API/addProduct.o29q6stiul.html",
+      "AssetFile": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\obj\\Debug\\net9.0\\compressed\\5uzjwzcrjh-o29q6stiul.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000982318271"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1017"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oRnUueln5Jef9BjcBURmmSgZfE2O2ugRYzIiVcA7Q9g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:18:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kEmyl8ycnFykxLYcKF1cbnnGhluWaMc028A/7Hy84k4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o29q6stiul"
+        },
+        {
+          "Name": "label",
+          "Value": "frontend for API/addProduct.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kEmyl8ycnFykxLYcKF1cbnnGhluWaMc028A/7Hy84k4="
+        }
+      ]
+    },
+    {
+      "Route": "frontend for API/addProduct.o29q6stiul.html",
+      "AssetFile": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\frontend for API\\addProduct.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2957"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kEmyl8ycnFykxLYcKF1cbnnGhluWaMc028A/7Hy84k4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:18:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o29q6stiul"
+        },
+        {
+          "Name": "label",
+          "Value": "frontend for API/addProduct.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kEmyl8ycnFykxLYcKF1cbnnGhluWaMc028A/7Hy84k4="
+        }
+      ]
+    },
+    {
+      "Route": "frontend for API/addProduct.o29q6stiul.html.gz",
+      "AssetFile": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\obj\\Debug\\net9.0\\compressed\\5uzjwzcrjh-o29q6stiul.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oRnUueln5Jef9BjcBURmmSgZfE2O2ugRYzIiVcA7Q9g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:18:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o29q6stiul"
+        },
+        {
+          "Name": "label",
+          "Value": "frontend for API/addProduct.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oRnUueln5Jef9BjcBURmmSgZfE2O2ugRYzIiVcA7Q9g="
+        }
+      ]
+    },
+    {
+      "Route": "frontend for API/viewProduct.html",
+      "AssetFile": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\obj\\Debug\\net9.0\\compressed\\vy6oe5lk33-pdjgu7bwhu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000992063492"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1007"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XCUlSTehAVa9PSya6JuULkPpUrCP0cU56Op/EtXWtlM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:36:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"HdDNpG0JpMlhPeUNCNUUe68hJzgH8SonQwr30PPW9Dc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HdDNpG0JpMlhPeUNCNUUe68hJzgH8SonQwr30PPW9Dc="
+        }
+      ]
+    },
+    {
+      "Route": "frontend for API/viewProduct.html",
+      "AssetFile": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\frontend for API\\viewProduct.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2965"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HdDNpG0JpMlhPeUNCNUUe68hJzgH8SonQwr30PPW9Dc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:36:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HdDNpG0JpMlhPeUNCNUUe68hJzgH8SonQwr30PPW9Dc="
+        }
+      ]
+    },
+    {
+      "Route": "frontend for API/viewProduct.html.gz",
+      "AssetFile": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\obj\\Debug\\net9.0\\compressed\\vy6oe5lk33-pdjgu7bwhu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1007"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XCUlSTehAVa9PSya6JuULkPpUrCP0cU56Op/EtXWtlM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:36:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XCUlSTehAVa9PSya6JuULkPpUrCP0cU56Op/EtXWtlM="
+        }
+      ]
+    },
+    {
+      "Route": "frontend for API/viewProduct.pdjgu7bwhu.html",
+      "AssetFile": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\obj\\Debug\\net9.0\\compressed\\vy6oe5lk33-pdjgu7bwhu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000992063492"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1007"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XCUlSTehAVa9PSya6JuULkPpUrCP0cU56Op/EtXWtlM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:36:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"HdDNpG0JpMlhPeUNCNUUe68hJzgH8SonQwr30PPW9Dc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pdjgu7bwhu"
+        },
+        {
+          "Name": "label",
+          "Value": "frontend for API/viewProduct.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HdDNpG0JpMlhPeUNCNUUe68hJzgH8SonQwr30PPW9Dc="
+        }
+      ]
+    },
+    {
+      "Route": "frontend for API/viewProduct.pdjgu7bwhu.html",
+      "AssetFile": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\frontend for API\\viewProduct.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2965"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HdDNpG0JpMlhPeUNCNUUe68hJzgH8SonQwr30PPW9Dc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:36:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pdjgu7bwhu"
+        },
+        {
+          "Name": "label",
+          "Value": "frontend for API/viewProduct.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HdDNpG0JpMlhPeUNCNUUe68hJzgH8SonQwr30PPW9Dc="
+        }
+      ]
+    },
+    {
+      "Route": "frontend for API/viewProduct.pdjgu7bwhu.html.gz",
+      "AssetFile": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\obj\\Debug\\net9.0\\compressed\\vy6oe5lk33-pdjgu7bwhu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1007"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XCUlSTehAVa9PSya6JuULkPpUrCP0cU56Op/EtXWtlM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:36:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pdjgu7bwhu"
+        },
+        {
+          "Name": "label",
+          "Value": "frontend for API/viewProduct.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XCUlSTehAVa9PSya6JuULkPpUrCP0cU56Op/EtXWtlM="
+        }
+      ]
+    },
     {
       "Route": "Upload/15b9e600-da01-4ce2-b334-267dd72d57a1.bq5uote28r.jpg",
       "AssetFile": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\Upload\\15b9e600-da01-4ce2-b334-267dd72d57a1.jpg",
@@ -349,6 +1071,88 @@
       ]
     },
     {
+      "Route": "Upload/63a5c3e2-3fb4-4421-be35-febef32598be.bq5uote28r.jpg",
+      "AssetFile": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\Upload\\63a5c3e2-3fb4-4421-be35-febef32598be.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3782297"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fXuLAg145Li+ZiQNi6bMTaMeHbKAy2Lo9WiTdW5S53A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Aug 2025 06:26:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bq5uote28r"
+        },
+        {
+          "Name": "label",
+          "Value": "Upload/63a5c3e2-3fb4-4421-be35-febef32598be.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fXuLAg145Li+ZiQNi6bMTaMeHbKAy2Lo9WiTdW5S53A="
+        }
+      ]
+    },
+    {
+      "Route": "Upload/63a5c3e2-3fb4-4421-be35-febef32598be.jpg",
+      "AssetFile": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\Upload\\63a5c3e2-3fb4-4421-be35-febef32598be.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3782297"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fXuLAg145Li+ZiQNi6bMTaMeHbKAy2Lo9WiTdW5S53A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Aug 2025 06:26:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fXuLAg145Li+ZiQNi6bMTaMeHbKAy2Lo9WiTdW5S53A="
+        }
+      ]
+    },
+    {
       "Route": "Upload/d8067dfa-7550-4173-acd3-d48b767bcf2a.bq5uote28r.jpg",
       "AssetFile": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\Upload\\d8067dfa-7550-4173-acd3-d48b767bcf2a.jpg",
       "Selectors": [],
@@ -427,6 +1231,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-fXuLAg145Li+ZiQNi6bMTaMeHbKAy2Lo9WiTdW5S53A="
+        }
+      ]
+    },
+    {
+      "Route": "web.config",
+      "AssetFile": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\web.config",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "755"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hjp37h57RlqPTwqZ9oIaswcCM/PdJzH1/T5YLEhOU8I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 06:22:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hjp37h57RlqPTwqZ9oIaswcCM/PdJzH1/T5YLEhOU8I="
+        }
+      ]
+    },
+    {
+      "Route": "web.mlbftg6g6u.config",
+      "AssetFile": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\web.config",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "755"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hjp37h57RlqPTwqZ9oIaswcCM/PdJzH1/T5YLEhOU8I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 06:22:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mlbftg6g6u"
+        },
+        {
+          "Name": "label",
+          "Value": "web.config"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hjp37h57RlqPTwqZ9oIaswcCM/PdJzH1/T5YLEhOU8I="
         }
       ]
     }

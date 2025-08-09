@@ -121,24 +121,55 @@ namespace addToCart.Controllers
         [HttpGet("catProd")]
         public IActionResult getProductsWithCategory()
         {
-            var data = _context.Products.
-                Include(item => item.Category).
-                Select(item => new ProductDTO
-                {
-                    Id = item.Id,
-                    ProdName = item.ProdName,
-                    ProdDesc = item.ProdDesc,
-                    ProdImage = item.ProdImage,
-                    ProdPrice = item.ProdPrice,
-                    CategoryId = item.CategoryId,
-                    CategoryName = item.Category.CategoryName
-                }
+            var data = _context.Products
+        //.FromSqlRaw("SELECT * FROM Product")
+        .FromSqlRaw("SELECT * FROM Product WHERE ProdPrice < {0}",100)
+        .Include(p => p.Category) 
+        .Select(item => new ProductDTO
+        {
+            Id = item.Id,
+            ProdName = item.ProdName,
+            ProdDesc = item.ProdDesc,
+            ProdImage = item.ProdImage,
+            ProdPrice = item.ProdPrice,
+            CategoryId = item.CategoryId,
+            CategoryName = item.Category.CategoryName
+        })
+        .ToList();
 
-                ).ToList();
+
+            //var data = _context.Products.
+            //    Include(item => item.Category).
+            //    Select(item => new ProductDTO
+            //    {
+            //        Id = item.Id,
+            //        ProdName = item.ProdName,
+            //        ProdDesc = item.ProdDesc,
+            //        ProdImage = item.ProdImage,
+            //        ProdPrice = item.ProdPrice,
+            //        CategoryId = item.CategoryId,
+            //        CategoryName = item.Category.CategoryName
+            //    }
+
+            //    ).ToList();
             
             
             
             return Ok(data);
+        }
+
+
+        [HttpGet("search")]
+        public IActionResult searchProduct(string searchQuery)
+        {
+            var searchedResult = _context.Products.Where(item => item.ProdName == searchQuery).ToList();
+
+            //var searchedResult = _context.Products.Where(item => item.ProdName.Contains(searchQuery)).ToList();
+            //var searchedResult = _context.Products.Where(item => item.ProdName.EndsWith(searchQuery)).ToList();
+            //var searchedResult = _context.Products.Where(item => item.ProdName.StartsWith(searchQuery)).ToList();
+
+
+            return Ok(searchedResult);
         }
 
 
