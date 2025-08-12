@@ -1,2 +1,1 @@
-C:\Users\usama\Desktop\2311C3-Dotnet\2311C3-Dotnet\addToCart\addToCart\wwwroot\frontend for API\addProduct.html
-C:\Users\usama\Desktop\2311C3-Dotnet\2311C3-Dotnet\addToCart\addToCart\wwwroot\frontend for API\viewProduct.html
+C:\Users\usama\Desktop\2311C3-Dotnet\2311C3-Dotnet\addToCart\addToCart\wwwroot\web.config

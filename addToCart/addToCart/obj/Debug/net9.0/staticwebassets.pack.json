@@ -21,16 +21,12 @@
       "PackagePath": "staticwebassets\\Upload\\d8067dfa-7550-4173-acd3-d48b767bcf2a.jpg"
     },
     {
-      "Id": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\frontend for API\\addProduct.html",
-      "PackagePath": "staticwebassets\\frontend for API\\addProduct.html"
+      "Id": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\addProduct.html",
+      "PackagePath": "staticwebassets\\addProduct.html"
     },
     {
-      "Id": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\frontend for API\\viewProduct.html",
-      "PackagePath": "staticwebassets\\frontend for API\\viewProduct.html"
-    },
-    {
-      "Id": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\web.config",
-      "PackagePath": "staticwebassets\\web.config"
+      "Id": "C:\\Users\\usama\\Desktop\\2311C3-Dotnet\\2311C3-Dotnet\\addToCart\\addToCart\\wwwroot\\viewProduct.html",
+      "PackagePath": "staticwebassets\\viewProduct.html"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.addToCart.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

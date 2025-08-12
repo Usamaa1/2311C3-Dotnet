@@ -43,7 +43,7 @@ let tableBody = document.getElementById('tableBody');
 
 async function getProduct() {
   try {
-    const response = await axios.get('http://localhost:5025/api/product');
+      const response = await axios.get('http://localhost:5042/api/Product/catProd');
     console.log(response.data);
 
 
@@ -100,7 +100,7 @@ getProduct();
 
 const deleteProduct = async (delId)=>{
     try {
-        const response = await axios.delete(`http://localhost:5025/api/product?delId=${delId}`);
+        const response = await axios.delete(`http://localhost:5042/api/product?delId=${delId}`);
         console.log(response)
     } catch (error) {
         console.log(error)
